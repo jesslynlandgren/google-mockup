@@ -1,0 +1,55 @@
+
+.logo{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+.searchbox{
+  max-width: 650px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  height: 38px;
+  margin: 20px auto;
+  background: url('../images/microphone.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 5%;
+
+}
+
+.searchbox:hover{
+  border: 1px solid blue;
+}
+
+.buttondiv{
+  margin: 30px auto;
+  display: block;
+  text-align: center;
+}
+
+.buttons{
+  display: inline-block;
+  background-color:#f2f2f2;
+  color: #757575;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  height: 36px;
+  line-height: 27px;
+  font-size: 13px;
+  border-radius: 2px;
+  text-align: center;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  border: 1px solid #f2f2f2;
+  cursor: default;
+}
+
+.buttons:hover{
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
